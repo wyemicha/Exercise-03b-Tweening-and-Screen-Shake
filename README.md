@@ -1,6 +1,8 @@
 # Exercise-03b-Tweening-and-Screen-Shake
 Exercise for MSCH-C220, 22 February 2021
 
+A demonstration of this exercise is available here: [https://youtu.be/lsyN6wQYDsA](https://youtu.be/lsyN6wQYDsA)
+
 This exercise is designed to explore adding tweening and screen shake to our boring brick breaker game (in the spirit of "Juice it or Lose it"). This builds on the last exercise (that added colors and particles).
 
 Fork this repository. When that process has completed, make sure that the top of the repository reads [your username]/Exercise-03b-Tweening-and-Screen-Shake. *Edit the LICENSE and replace BL-MSCH-C220-S21 with your full name.* Commit your changes.
