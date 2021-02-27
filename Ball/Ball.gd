@@ -36,7 +36,16 @@ func _physics_process(_delta):
 		pass
 
 
-			
+	for body in bodies:
+		if body.name == "Walls":
+			if HUD.screen_shake_walls > 0:
+				camera.add_trauma(trauma*HUD.screen_shake_walls)
+		if body.name == "Paddle":
+			if HUD.screen_shake_paddle > 0:
+				camera.add_trauma(trauma*HUD.screen_shake_paddle)
+		if body.is_in_group("Brick"):
+			if HUD.screen_shake_blocks > 0:
+				camera.add_trauma(trauma*HUD.screen_shake_blocks)		
 		if body.has_method("emit_particle"):
 			body.emit_particle(global_position)
 		if body.is_in_group("Brick"):
